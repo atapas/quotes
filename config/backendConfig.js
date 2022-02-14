@@ -16,8 +16,8 @@ export const backendConfig = () => {
     port: 465,
     secure: true,
     auth: {
-        user: process.env.NODEMAILER_USER,
-        pass: process.env.NODEMAILER_PASSWORD,
+        user: process.env.NEXT_PUBLIC_NODEMAILER_USER,
+        pass: process.env.NEXT_PUBLIC_NODEMAILER_PASSWORD,
     },
   });
 
@@ -45,8 +45,8 @@ export const backendConfig = () => {
             await mailTransporter.sendMail({
               html: htmlBody,
               to: input.email,
-              from: `Team Supertokens <${process.env.NODEMAILER_USER}>`,
-              sender: process.env.NODEMAILER_USER,
+              from: `Team Supertokens <${appInfo.appName}>`,
+              sender: process.env.NEXT_PUBLIC_NODEMAILER_USER,
               subject: `Login to ${appInfo.appName}`,
             });
           } catch (err) {
