@@ -20,6 +20,11 @@ The Quotes Screen:
 
 Liked it? Please support the project with a STAR(⭐).
 
+### Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
+
+[![Stargazers repo roster for @atapas/quotes](https://reporoster.com/stars/atapas/quotes)](https://github.com/atapas/quotes/stargazers)
+
+
 ## Getting Started
 First, you need to install dependencies for `Retell`:
 
