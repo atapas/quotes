@@ -1,32 +1,119 @@
 {
   "quotes": [
     {
+      "id": 1,
       "quote": "I'm not a great cook, but I'm good at making a mean stew.",
       "author": "Gordon Ramsay"
     },
     {
+      "id": 2,
       "quote": "All our dreams can come true, if we have the courage to pursue them.",
       "author": "Walt Disney"
     },
     {
+      "id": 3,
       "quote": "It's not that I'm so smart, it's just that I stay with problems longer.",
       "author": "Albert Einstein"
     },
     {
+      "id": 4,
       "quote": "Everything you can imagine is real.",
       "author": "Pablo Picasso"
     },
     {
+      "id": 5,
       "quote": "I am not a product of my circumstances. I am a product of my decisions.",
       "author": "Stephen Covey"
     },
     {
+      "id": 6,
       "quote": "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
       "author": "Aristotle"
     },
     {
+      "id": 7,
       "quote": "Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.",
       "author": "Mary Kay Ash"
+    },
+    {
+      "id": 8,
+      "quote": "Many of life’s failures are people who did not realize how close they were to success when they gave up.",
+      "author": "Thomas A. Edison"
+    },
+    {
+      "id": 9,
+      "quote": "Only the paranoid survive.",
+      "author": "Andy Grove"
+    },
+    {
+      "id": 10,
+      "quote": "Write it. Shoot it. Publish it. Crochet it, sauté it, whatever. MAKE.",
+      "author": "Joss Whedon"
+    },
+    {
+      "id": 11,
+      "quote": "I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+      "author": "Maya Angelou"
+    },
+    {
+      "id": 12,
+      "quote": "Either you run the day, or the day runs you.",
+      "author": "Jim Rohn"
+    },
+    {
+      "id": 13,
+      "quote": "Whether you think you can or you think you can’t, you’re right.",
+      "author": "Henry Ford"
+    },
+    {
+      "id": 14,
+      "quote": "The two most important days in your life are the day you are born and the day you find out why.",
+      "author": "Mark Twain"
+    },
+    {
+      "id": 15,
+      "quote": "Whatever you can do, or dream you can, begin it. Boldness has genius, power and magic in it.",
+      "author": "Johann Wolfgang von Goethe"
+    },
+    {
+      "id": 16,
+      "quote": "The best revenge is massive success.",
+      "author": "Frank Sinatra"
+    },
+    {
+      "id": 17,
+      "quote": "People often say that motivation doesn’t last. Well, neither does bathing.  That’s why we recommend it daily.",
+      "author": "Zig Ziglar"
+    },
+    {
+      "id": 18,
+      "quote": "Life shrinks or expands in proportion to one’s courage.",
+      "author": "Anais Nin"
+    },
+    {
+      "id": 19,
+      "quote": "If you hear a voice within you say “you cannot paint,” then by all means paint and that voice will be silenced.",
+      "author": "Vincent Van Gogh"
+    },
+    {
+      "id": 20,
+      "quote": "Ask and it will be given to you; search, and you will find; knock and the door will be opened for you.",
+      "author": "Jesus"
+    },
+    {
+      "id": 21,
+      "quote": "The only person you are destined to become is the person you decide to be.",
+      "author": "Ralph Waldo Emerson"
+    },
+    {
+      "id": 22,
+      "quote": "Go confidently in the direction of your dreams.  Live the life you have imagined.",
+      "author": "Henry David Thoreau"
+    },
+    {
+      "id": 23,
+      "quote": "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me.",
+      "author": "Erma Bombeck"
     }
   ]
 }

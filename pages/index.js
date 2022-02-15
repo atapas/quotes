@@ -4,6 +4,9 @@ import React from 'react';
 import Passwordless from "supertokens-auth-react/recipe/passwordless";
 import supertokensNode from 'supertokens-node';
 import Session from 'supertokens-node/recipe/session';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import QuoteList from '../components/QuoteList';
 import { backendConfig } from '../config/backendConfig';
 import styles from '../styles/Home.module.css';
 
@@ -49,69 +52,19 @@ function ProtectedPage({ userId }) {
     Passwordless.redirectToAuth()
   }
 
-  async function fetchUserData() {
-    const res = await fetch('/api/user')
-    if (res.status === 200) {
-      const json = await res.json()
-      alert(JSON.stringify(json))
-    }
-  }
+ 
 
   return (
     <div className={styles.container}>
       <Head>
-        <title>Quotes</title>
+        <title>Retell</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Header logoutClicked={logoutClicked} />
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to the Quotes App!
-        </h1>
-        {/*<p className={styles.description}>
-          You are authenticated with SuperTokens! (UserID: {userId})
-        </p>*/}
-
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            height: '70px',
-            alignItems: 'center',
-            justifyContent: 'flex-end',
-            paddingLeft: '75px',
-            paddingRight: '75px',
-          }}
-        >
-        <div
-            onClick={logoutClicked}
-            style={{
-              display: 'flex',
-              width: '116px',
-              height: '42px',
-              backgroundColor: '#000000',
-              borderRadius: '10px',
-              cursor: 'pointer',
-              alignItems: 'center',
-              justifyContent: 'center',
-              color: '#ffffff',
-              fontWeight: 'bold',
-            }}
-          >
-            SIGN OUT
-          </div>
-          <div>Powered by SuperTokens and Next.js</div>
-        </div>
+        <QuoteList />
       </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://tapasadhikary.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Made with ❤️ by Tapas Adhikary
-        </a>
-      </footer>
+      <Footer />
     </div>
   )
 }
