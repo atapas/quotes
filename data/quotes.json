@@ -1,30 +1,37 @@
 {
   "quotes": [
     {
+      "id": 1,
       "quote": "I'm not a great cook, but I'm good at making a mean stew.",
       "author": "Gordon Ramsay"
     },
     {
+      "id": 2,
       "quote": "All our dreams can come true, if we have the courage to pursue them.",
       "author": "Walt Disney"
     },
     {
+      "id": 3,
       "quote": "It's not that I'm so smart, it's just that I stay with problems longer.",
       "author": "Albert Einstein"
     },
     {
+      "id": 4,
       "quote": "Everything you can imagine is real.",
       "author": "Pablo Picasso"
     },
     {
+      "id": 5,
       "quote": "I am not a product of my circumstances. I am a product of my decisions.",
       "author": "Stephen Covey"
     },
     {
+      "id": 6,
       "quote": "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
       "author": "Aristotle"
     },
     {
+      "id": 7,
       "quote": "Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.",
       "author": "Mary Kay Ash"
     }

@@ -4,6 +4,7 @@ import React from 'react';
 import Passwordless from "supertokens-auth-react/recipe/passwordless";
 import supertokensNode from 'supertokens-node';
 import Session from 'supertokens-node/recipe/session';
+import QuoteList from '../components/QuoteList';
 import { backendConfig } from '../config/backendConfig';
 import styles from '../styles/Home.module.css';
 
@@ -49,13 +50,7 @@ function ProtectedPage({ userId }) {
     Passwordless.redirectToAuth()
   }
 
-  async function fetchUserData() {
-    const res = await fetch('/api/user')
-    if (res.status === 200) {
-      const json = await res.json()
-      alert(JSON.stringify(json))
-    }
-  }
+ 
 
   return (
     <div className={styles.container}>
@@ -68,9 +63,7 @@ function ProtectedPage({ userId }) {
         <h1 className={styles.title}>
           Welcome to the Quotes App!
         </h1>
-        {/*<p className={styles.description}>
-          You are authenticated with SuperTokens! (UserID: {userId})
-        </p>*/}
+        <QuoteList />
 
         <div
           style={{
