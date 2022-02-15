@@ -20,7 +20,6 @@ const QuoteList = () => {
 
   return(
     <div>
-      <h1>Quotes</h1>
       {
         loading ? 
         <p>Loading...</p> : 

@@ -2,7 +2,7 @@ import supertokens from 'supertokens-node';
 import { superTokensNextWrapper } from 'supertokens-node/nextjs';
 import { verifySession } from 'supertokens-node/recipe/session/framework/express';
 import { backendConfig } from '../../config/backendConfig';
-import * as quoteList from '../../data/quotes.json';
+import quoteList from '../../data/quotes.json';
 
 supertokens.init(backendConfig())
 

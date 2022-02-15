@@ -8,7 +8,7 @@ export const websiteDomain =
   `http://localhost:${port}`
 
 export const appInfo = {
-  appName: 'Quotes',
+  appName: 'Retell',
   websiteDomain,
   apiDomain: websiteDomain,
   apiBasePath,
