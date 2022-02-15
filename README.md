@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Retell
+
+`Retell` is an app to get you famous quotes from famous people around the world. This app is created to demonstrate the integration of SuperTokens Authentication with Nextjs. We use the Passwordless recepie of SuperTokens to fetch quotes in a guarded way and show in the Nextjs cimponents.
+
 
 ## Getting Started
 
