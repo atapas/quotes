@@ -1,7 +1,7 @@
 
 import styles from './header.module.css';
 
-const Header = ({logoutClicked}) => {
+const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
@@ -28,7 +28,7 @@ const Header = ({logoutClicked}) => {
             </a>
           </li>
           <li className={styles.navItem}>
-            <a href="#" className={styles.navLink} onClick={logoutClicked}>
+            <a href="#" className={styles.navLink}>
               Sign Out
             </a>
           </li>  
