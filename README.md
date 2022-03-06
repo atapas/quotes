@@ -2,15 +2,10 @@
 
 `Retell` is an app to get you famous quotes from famous people around the world. This app is created to demonstrate the integration of `SuperTokens` Authentication with `Nextjs`. 
 
-We use the `Passwordless` recipe of SuperTokens to fetch quotes in a guarded way and show them in a `Nextjs` component.
-
+In this branch we have implemented the following features:
+- Create an API to fetch the famous quotes.
+- Create a `Nextjs` app to display the quotes.
 ## Screenshots
-
-The Login Screen:
-
-<p align="center">
-  <img src="screens/login.png" alt="login" />
-</p>
 
 The Quotes Screen:
 
@@ -35,19 +30,6 @@ npm install
 
 yarn
 ```
-
-Create a `.env.local` file at the root of the project with the following content:
-
-```bash
-NEXT_PUBLIC_NODEMAILER_USER=<YOUR_GMAIL_ID>
-NEXT_PUBLIC_NODEMAILER_PASSWORD=<YOUR_GMAIL_PASSWORD>
-
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-```
-> **Important Note**: The Gmail id and password is required to send OTP over email. Please do not
-use your personal Gmail id for this purpose. You can create a fake gmail id
-and lower the security settings to use it for testing purposes.
-
 Then, run the development server:
 
 ```bash
