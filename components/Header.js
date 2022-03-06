@@ -26,6 +26,11 @@ const Header = () => {
               className={styles.navLink}>
               Twitter
             </a>
+          </li>
+          <li className={styles.navItem}>
+            <a href="#" className={styles.navLink}>
+              Sign Out
+            </a>
           </li>  
         </ul>
       </div>
