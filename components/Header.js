@@ -1,7 +1,7 @@
 
 import styles from './header.module.css';
 
-const Header = ({logoutClicked}) => {
+const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
@@ -25,11 +25,6 @@ const Header = ({logoutClicked}) => {
               rel="noopener noreferrer"
               className={styles.navLink}>
               Twitter
-            </a>
-          </li>
-          <li className={styles.navItem}>
-            <a href="#" className={styles.navLink} onClick={logoutClicked}>
-              Sign Out
             </a>
           </li>  
         </ul>

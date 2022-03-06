@@ -8,15 +8,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "axios": "^0.26.0",
-    "dotenv": "^16.0.0",
     "next": "12.0.10",
-    "nextjs-cors": "^2.1.0",
-    "nodemailer": "^6.7.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "supertokens-auth-react": "^0.18.7",
-    "supertokens-node": "^8.6.0"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
     "eslint": "8.9.0",
